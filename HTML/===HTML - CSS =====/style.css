@@ -1,0 +1,21 @@
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.block{
+    background-color:red;
+    width:200px;
+    height:200px;
+    animation: square 4s infinite;
+  }
+  
+  
+  @keyframes square{
+    0% {transform:rotate(0deg);}
+    30% {background-color: orange;}
+    60% {background-color: green;}
+    100% {transform:rotate(360deg);}
+  }
